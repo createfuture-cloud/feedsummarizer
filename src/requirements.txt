@@ -1,0 +1,7 @@
+aws_lambda_powertools~=3.14
+boto3~=1.38
+langchain[aws]~=0.3.25
+pydantic~=2.11
+requests~=2.32
+rss-parser~=2.1
+slack_sdk~=3.35
