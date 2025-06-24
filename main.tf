@@ -23,7 +23,7 @@ module "function" {
   timeout       = 300 # 5 minutes
 
   build_in_docker = true
-  architectures   = ["arm64"]
+  architectures   = [var.architecture]
 
   source_path = [{
     path             = "${path.module}/src"

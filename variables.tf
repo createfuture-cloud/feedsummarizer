@@ -27,3 +27,9 @@ variable "schedule_expression_timezone" {
   description = "Timezone for the schedule expression"
   default     = "UTC"
 }
+
+variable "architecture" {
+  type        = string
+  description = "CPU Architecture to Build & Deploy"
+  default     = "x86_64"
+}
