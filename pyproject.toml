@@ -1,7 +1,8 @@
 [project]
 name = "feedsummarizer"
 version = "0.1.0"
-requires-python = ">=3.11"
+# Pinned to 3.13 so we stay in line with AWS' Lambda runtime
+requires-python = "3.13"
 dependencies = []
 
 [dependency-groups]
