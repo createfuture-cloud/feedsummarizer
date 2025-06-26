@@ -9,5 +9,4 @@ jobs:
     - uses: astral-sh/setup-uv@v6
       with:
         enable-cache: true
-        python-version-file: pyproject.toml
     - run: uv run --frozen black --check src/
