@@ -10,4 +10,4 @@ jobs:
       with:
         python-version: '3.13'
     - uses: astral-sh/setup-uv@v6
-    - run: uv run black --check src/
+    - run: uv run --frozen black --check src/
